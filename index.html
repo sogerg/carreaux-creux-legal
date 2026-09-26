@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TileTap — Confidentialité / Privacy</title>
+<style>
+:root { --fond:#F2EFE8; --encre:#1E272C; --doux:#5B6770; --accent:#2C5566; }
+body { margin:0; background:var(--fond); color:var(--encre); font:16px/1.55 system-ui,-apple-system,Segoe UI,Roboto,sans-serif; }
+main { max-width:720px; margin:0 auto; padding:24px 16px 64px; }
+h1 { font-size:26px; margin:0 0 4px; } h2 { font-size:20px; margin:32px 0 8px; color:var(--accent); }
+p, li { color:var(--encre); } .meta { color:var(--doux); font-size:14px; }
+nav a { color:var(--accent); font-weight:600; margin-right:16px; }
+section { background:#fff; border-radius:16px; padding:8px 20px 20px; margin-top:24px; }
+</style>
+</head>
+<body>
+<main>
+<h1>TileTap</h1>
+<p class="meta">Détecteur acoustique de carreaux creux · Hollow tile detector — mise à jour / updated 26/09/2026</p>
+<nav><a href="#fr">Français</a><a href="#en">English</a></nav>
+
+<section id="fr" lang="fr">
+<h2>Politique de confidentialité</h2>
+<p><strong>En résumé : TileTap ne collecte, n'enregistre et n'envoie aucune donnée personnelle.</strong> Il n'y a ni compte, ni publicité, ni outil de mesure d'audience, ni serveur.</p>
+<h2>Microphone</h2>
+<ul>
+<li>L'app demande l'accès au micro pour écouter le coup de votre manche sur un carreau. Le micro n'est actif que sur les écrans d'écoute (calibration, écoute libre, grille d'une pièce) et s'arrête dès que vous quittez l'écran ou que l'app passe en arrière-plan.</li>
+<li>Le son est analysé en mémoire, par petits morceaux, directement sur le téléphone. <strong>Aucun son n'est enregistré dans un fichier ni envoyé où que ce soit.</strong></li>
+<li>Seuls trois nombres par coup sont conservés (centre spectral, part des graves, temps d'extinction), pour la calibration et le verdict.</li>
+</ul>
+<h2>Données stockées sur le téléphone</h2>
+<p>Les noms de chantiers et de pièces que vous saisissez, la taille des grilles, les verdicts par carreau, les calibrations et vos réglages sont enregistrés dans un fichier privé de l'app, sur votre téléphone uniquement. Ils disparaissent si vous les supprimez dans l'app ou si vous désinstallez l'app.</p>
+<h2>Export d'image</h2>
+<p>Quand vous touchez « Exporter l'image », l'app crée une image PNG de la grille dans son dossier temporaire et ouvre la feuille de partage du système. C'est vous qui choisissez où l'envoyer ; l'app ne l'envoie nulle part d'elle-même.</p>
+<h2>Réseau et autres permissions</h2>
+<p>L'app ne fait aucune requête réseau. Elle n'utilise ni la localisation, ni l'appareil photo, ni les contacts. La vibration sert uniquement au retour de verdict.</p>
+<h2>Nature du résultat</h2>
+<p>Les verdicts « plein / douteux / creux » sont une aide à l'écoute, relative à une calibration faite sur place. Ils ne constituent ni un diagnostic, ni une expertise.</p>
+<h2>Contact</h2>
+<p>Pour toute question, utilisez le contact développeur indiqué sur la fiche de l'app dans l'App Store ou Google Play.</p>
+</section>
+
+<section id="en" lang="en">
+<h2>Privacy policy</h2>
+<p><strong>In short: TileTap does not collect, record or send any personal data.</strong> There is no account, no advertising, no analytics and no server.</p>
+<h2>Microphone</h2>
+<ul>
+<li>The app asks for microphone access to listen to the tap of your handle on a tile. The microphone is only active on the listening screens (calibration, free listening, room grid) and stops as soon as you leave the screen or the app goes to the background.</li>
+<li>Sound is analysed in memory, in small chunks, directly on the phone. <strong>No sound is ever saved to a file or sent anywhere.</strong></li>
+<li>Only three numbers per tap are kept (spectral centre, low-end share, fade-out time), for calibration and the verdict.</li>
+</ul>
+<h2>Data stored on the phone</h2>
+<p>The job and room names you type, grid sizes, per-tile verdicts, calibrations and your settings are stored in a private app file, on your phone only. They are removed when you delete them in the app or uninstall the app.</p>
+<h2>Image export</h2>
+<p>When you tap “Export image”, the app creates a PNG image of the grid in its temporary folder and opens the system share sheet. You choose where it goes; the app never sends it anywhere by itself.</p>
+<h2>Network and other permissions</h2>
+<p>The app makes no network requests. It does not use location, the camera or contacts. Vibration is only used for verdict feedback.</p>
+<h2>What the result means</h2>
+<p>The “solid / unsure / hollow” verdicts are a listening aid, relative to an on-site calibration. They are neither a diagnosis nor an expert survey.</p>
+<h2>Contact</h2>
+<p>For any question, use the developer contact shown on the app's App Store or Google Play page.</p>
+</section>
+</main>
+</body>
+</html>
